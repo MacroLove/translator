@@ -1,0 +1,17 @@
+{
+  "name": "nodejstranslate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start-android": "node index.js ./res/strings.xml en zh ./out android",
+    "start-ios": "node index.js ./res/Localizable.strings en zh ./out ios",
+    "test": "npm test"
+  },
+  "author": "macro zhao",
+  "license": "ISC",
+  "dependencies": {
+    "promise.allsettled": "^1.0.2",
+    "request": "^2.88.2"
+  }
+}
